@@ -1,0 +1,25 @@
+Project Structure
+HTML - Basic structure for the application interface.
+CSS - Styles for a simple and responsive layout.
+JavaScript - Logic to fetch data from the weather API and display it in the interface.
+
+How to Set Up and Use the App
+Get an OpenWeatherMap API Key: Register with OpenWeatherMap and get a free API key.
+
+Enter your key in JavaScript: Replace 'YOUR_API_KEY' with your API key in the JavaScript code.
+
+Execution:
+
+Save the index.html, styles.css, and script.js files in the same directory.
+Open the index.html file in your browser.
+Type in a city name and click "Search Weather" to see the results.
+Code Description
+HTML: Defines the structure of the application with a form for city input and a section to display the results.
+CSS: Styles for a clean, centered, and responsive layout.
+
+JavaScript:
+
+API Key: Defined at the top of the script; replace with the correct value.
+Events: Handles the form submission, retrieving the city name entered by the user.
+Fetch API: Makes a call to the OpenWeatherMap API using fetch() and processes the response.
+Displaying Data: Updates the DOM elements with the information obtained from the API (temperature, description, humidity, wind speed).

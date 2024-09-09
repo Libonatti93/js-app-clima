@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicativo de Clima</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="weather-app">
+        <h1>Clima Atual</h1>
+        <form id="weather-form">
+            <input type="text" id="city-input" placeholder="Digite o nome da cidade" required>
+            <button type="submit">Buscar Clima</button>
+        </form>
+        <div id="weather-result" class="hidden">
+            <h2 id="city-name"></h2>
+            <p>Temperatura: <span id="temperature"></span>°C</p>
+            <p>Descrição: <span id="description"></span></p>
+            <p>Humidade: <span id="humidity"></span>%</p>
+            <p>Vento: <span id="wind-speed"></span> km/h</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
